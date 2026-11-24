@@ -1,11 +1,16 @@
-import CourseSectionItem from "./CourseSectionItem.tsx";
+import SelectedBook from "./SelectedBook.tsx";
+import SelectedBooks from "./SelectedBooks.tsx";
+import Header from "./Header.tsx";
+import Footer from "./Footer.tsx";
+
 
 export default function App() {
-  return <div className="p-7.75">
-    <div className="w-256.5 bg-[#1A1D1F] rounded-lg border border-[#1F272A]">
-      <CourseSectionItem/>
-      <CourseSectionItem/>
-      <CourseSectionItem/>
+  return <>
+    <Header></Header>
+    <div className="mt-5 ml-8.5 mb-44.5">
+      <SelectedBooks />
     </div>
-  </div>;
+    <Footer></Footer>
+  </>
+
 }
