@@ -1,16 +1,15 @@
-import SelectedBook from "./SelectedBook.tsx";
-import SelectedBooks from "./SelectedBooks.tsx";
+import LibraryItem from "./LibraryItem.tsx";
 import Header from "./Header.tsx";
 import Footer from "./Footer.tsx";
-
 
 export default function App() {
   return <>
     <Header></Header>
-    <div className="mt-5 ml-8.5 mb-44.5">
-      <SelectedBooks />
+    <div className="mt-16 mb-16 ml-8">
+      <LibraryItem></LibraryItem>
     </div>
     <Footer></Footer>
   </>
+
 
 }
